@@ -24,12 +24,12 @@ class DatabaseSeeder extends Seeder
 
         // Mahasiswa
         User::updateOrCreate(
-            ['email' => 'ahmad.raihan@student.celoe.test'],
+            ['email' => 'syaddad@student.celoe.test'],
             [
-                'name' => 'Ahmad Raihan Arifinza',
+                'name' => 'Syaddad Raihan Putra',
                 'password' => Hash::make('password123'),
                 'role' => 'mahasiswa',
-                'nomor_induk' => '1302240001',
+                'nomor_induk' => '102042500079',
             ],
         );
     }
